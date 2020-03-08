@@ -45,3 +45,5 @@ int main()
 
 // emcc hello_sdl.c --emrun --preload-file font -s USE_SDL=2 -s USE_SDL_TTF=2 -o hello_sdl.html
 // emrun --browser firefox hello_sdl.html
+
+// or leave off emrun and run http-server in the directory with the file
